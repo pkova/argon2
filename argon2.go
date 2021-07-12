@@ -47,10 +47,10 @@ import (
 const Version = 0x13
 
 const (
-	argon2u = 10
 	argon2d = iota
 	argon2i
 	argon2id
+	argon2u = 10
 )
 
 // Key derives a key from the password, salt, and cost parameters using Argon2i
